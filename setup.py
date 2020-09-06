@@ -8,11 +8,10 @@ Command line tool to dump data to sentry.
 """
 
 from setuptools import setup
-from itree import VERSION as itree_version
 
 setup(
     name='itree',
-    version='.'.join(map(str, itree_version)),
+    version='.'.join(map(str, (0,0,0))),
     author='Adam DePrince',
     author_email='adeprince@nypublicradio.org',
     description='Interval tree implementation',
