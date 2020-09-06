@@ -3,16 +3,16 @@
 interval_tree
 ======
 
-Command line tool to dump data to sentry.  
+Command line tool to dump data to sentry.
 
 """
 
 from setuptools import setup
-import itree
+from itree import VERSION as itree_version
 
 setup(
     name='itree',
-    version='.'.join(map(str, itree.VERSION)),
+    version='.'.join(map(str, itree_version)),
     author='Adam DePrince',
     author_email='adeprince@nypublicradio.org',
     description='Interval tree implementation',
